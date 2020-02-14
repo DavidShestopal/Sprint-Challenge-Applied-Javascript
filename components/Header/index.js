@@ -10,7 +10,7 @@
 // And add it to the DOM in the .header-container component
 
 // function Header() {}
-const headerMaker = () => {
+const header = () => {
   const header1 = document.createElement('div');
   header1.classList.add('header');
 
@@ -32,4 +32,4 @@ const headerMaker = () => {
 };
 
 const headerDiv = document.querySelector('.header-container');
-headerDiv.appendChild(headerMaker());
+headerDiv.appendChild(header());
